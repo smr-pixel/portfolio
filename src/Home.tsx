@@ -1,5 +1,6 @@
 import React from 'react';
 import './Home.css';
+import profile from '../assets/profile.jpeg';
 
 const Home: React.FC = () => {
     return (
@@ -12,7 +13,7 @@ const Home: React.FC = () => {
                     <br />
                     Founding Vice President of <a href="https://www.linkedin.com/company/wicys-pitt/"> WiCyS (Women in CyberSecurity) at Pitt </a>
                 </p>
-                <img src="/profile.jpeg" alt="Profile" className="profile-image" />
+                <img src={profile} alt="Profile" className="profile-image" />
 
             </section>
         </main>
