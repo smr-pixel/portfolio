@@ -1,0 +1,53 @@
+body, html {
+    background-color: black;
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+.home {
+    min-height: 100vh;
+    width: 100vw;
+    background-image: url('public/portfolio-background.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+.home h1 {
+    padding-top: 100px;
+    color: white;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 40px;
+    text-align: left;
+    margin-left: 30px;
+}
+
+.home p {
+    color: white;
+    font-size: 18px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    text-align: left;
+    margin-left: 30px;
+}
+
+.Logo {
+    margin-top: 50px;
+    margin-left: 50px;
+    width: 200px;
+    height: auto;
+}
+
+.profile-image {
+    object-fit: cover;
+    border: 2px solid white;
+    position: absolute;
+    top: 50%;       /* vertical center */
+    right: 2rem;    /* distance from right edge */
+    transform: translateY(-50%); /* perfect vertical centering */
+    max-width: 600px;
+    height: auto;
+}
