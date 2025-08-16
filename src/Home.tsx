@@ -1,7 +1,7 @@
 import React from 'react';
 import './Home.css';
-import profile from '../assets/profile.jpeg';
-import logo from '../assets/logo-2-removebg-preview.png';
+import profile from './assets/profile.jpeg';
+import logo from './assets/logo-2-removebg-preview.png';
 
 const Home: React.FC = () => {
     return (
