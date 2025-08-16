@@ -1,12 +1,13 @@
 import React from 'react';
 import './Home.css';
 import profile from '../assets/profile.jpeg';
+import logo from '../assets/logo-2-removebg-preview.png';
 
 const Home: React.FC = () => {
     return (
         <main className="home">
             <section className="hero">
-                <img src="/logo-2-removebg-preview.png" alt="Logo" className="Logo" />
+                <img src={logo} alt="Logo" className="Logo" />
                 <h1>Hi, I'm Sarah Reyer, <br />An Aspiring Cybersecurity Professional</h1>
                 <p className="intro">
                     Information Science, Computer Science, and Global Policy student at the Unversity of Pittsburgh
