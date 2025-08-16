@@ -2,10 +2,11 @@ import React from 'react';
 import './Home.css';
 import profile from './assets/profile.jpeg';
 import logo from './assets/logo-2-removebg-preview.png';
+import bg from './assets/portfolio-background.jpg';
 
 const Home: React.FC = () => {
     return (
-        <main className="home">
+        <main className="home" style={{ backgroundImage: `url(${bg})`, backgroundSize: 'cover', backgroundPosition: 'center' }}>
             <section className="hero">
                 <img src={logo} alt="Logo" className="Logo" />
                 <h1>Hi, I'm Sarah Reyer, <br />An Aspiring Cybersecurity Professional</h1>
