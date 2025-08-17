@@ -1,9 +1,9 @@
 import Navbubble from './components/Navbubble';
 import Logo from './components/Logo';
 
-const About: React.FC = () => {
+const Projects: React.FC = () => {
     return (
-        <main className="about" style={{ background: 'black', minHeight: '100vh', color: 'white' }}>
+        <main className="projects" style={{ background: 'black', minHeight: '100vh', color: 'white' }}>
             <section className="hero">
                 <Navbubble />
                 <Logo />
@@ -12,4 +12,4 @@ const About: React.FC = () => {
     );
 };
 
-export default About;
+export default Projects;
