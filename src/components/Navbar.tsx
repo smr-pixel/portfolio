@@ -15,7 +15,7 @@ const Navbar: React.FC = () => {
           </a>
         </li>
         <li>
-          <a href="www.linkedin.com/in/sarah-r-b85844253" target="_blank" rel="noopener noreferrer">
+          <a href="https://www.linkedin.com/in/sarah-r-b85844253" target="_blank" rel="noopener noreferrer">
             <img src={linkedin} alt="LinkedIn" style={{ width: '60px', height: 'auto' }} />
           </a>
         </li>

@@ -1,3 +1,7 @@
+/* Make nav-list links white */
+.nav-list a {
+    color: white;
+}
 body, html {
     background-color: black;
     margin: 0;
@@ -6,6 +10,19 @@ body, html {
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
+}
+.nav-list {
+    display: flex;
+    gap: 5rem;
+    margin: 0;
+    color: white;
+    padding-top: 5rem;
+    justify-content: flex-end;
+    padding-right: 3rem;
+    align-items: center;
+    list-style: none;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    
 }
 .home {
     min-height: 100vh;
@@ -32,13 +49,6 @@ body, html {
     font-family:Verdana, Geneva, Tahoma, sans-serif;
     text-align: left;
     margin-left: 30px;
-}
-
-.Logo {
-    margin-top: 150px;
-    margin-left: 50px;
-    width: 200px;
-    height: auto;
 }
 
 .profile-image {
